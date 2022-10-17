@@ -187,6 +187,8 @@ int main(void)
 {
 		LCD_INIT();
 		LCD_STRING("Welcome to AIDS");
+    LCD_CMD(0xC0);
+		LCD_STRING("212221230069");
 		return 0;
 }
 ```
